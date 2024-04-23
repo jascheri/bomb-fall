@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 23451099}
   - component: {fileID: 23451098}
   m_Layer: 5
-  m_Name: HighScore Text (1)
+  m_Name: HighScore Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 80}
-  m_SizeDelta: {x: 181.76, y: 30}
+  m_AnchoredPosition: {x: 0, y: 58}
+  m_SizeDelta: {x: 181.76, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23451098
 MonoBehaviour:
@@ -192,7 +192,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 2
   m_Text: 'Highscore: 0'
 --- !u!222 &23451099
 CanvasRenderer:
@@ -652,7 +652,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e0894ae725562044ac588a96ab95a88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameOverAnimator: {fileID: 2056013055}
+  gameOverPanel: {fileID: 2056013052}
+  score: 0
 --- !u!4 &481490990
 Transform:
   m_ObjectHideFlags: 0

@@ -8,12 +8,11 @@ using UnityEngine.UI;
 public class CollectorScript : MonoBehaviour
 {
     public GameObject scoreText;
-    private int score;
 
     private void addScore()
     {
-        score++;
-        scoreText.GetComponent<TextMeshProUGUI>().text = "Score: " + score;
+        GameplayController.instance.score++;
+        scoreText.GetComponent<TextMeshProUGUI>().text = "Score: " + GameplayController.instance.score;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

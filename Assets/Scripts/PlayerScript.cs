@@ -49,26 +49,7 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-    //public void PlayerMove(InputAction.CallbackContext context)
-    //{
-    //    Debug.Log(context);
-    //    context.
-    //    Vector2 playerPosition = transform.position;
-    //    //float h = context.ReadValue<Vector2>().x;
-    //    float h = inputManager.actions["Move"].ReadValue<Vector2>().x;
-    //        if (h > 0)
-    //        {
-    //            playerPosition.x += speed * Time.deltaTime;
-    //        }
-    //        else if (h < 0)
-    //        {
-    //            playerPosition.x -= speed * Time.deltaTime;
-    //        }
-    //        //// Restrict player to the game area
-    //        playerPosition.x = Mathf.Clamp(playerPosition.x, minX, maxX);
-    //        transform.position = playerPosition;
-    //}
-
+   
     public void PlayerMove()
     {
         Debug.Log(inputManager.actions["Move"].type);
